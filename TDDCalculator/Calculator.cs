@@ -5,7 +5,7 @@ public class Calculator
     // Pattern for a number 
     private const string _numberPattern = "^\\s*\\d+\\s*$";
     // Pattern for a formula
-    private const string _formulaPattern = "^\\s*(\\d+)\\s*([\\+\\-\\*\\/])\\s*(\\d+)\\s*$";
+    private const string _formulaPattern = "^\\s*(?<x>\\d+)\\s*(?<opp>[\\+\\-\\*\\/])\\s*(?<y>\\d+)\\s*$";
 
     /// <summary>
     /// Solves the given formula and returns the answer.
