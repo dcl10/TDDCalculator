@@ -90,7 +90,7 @@ public class TestCalculator
         var actualAnswer = () => calculator.Calculate(formula);
         
         // Assert
-        Assert.Throws<DivideByZeroException>(() => actualAnswer);
+        Assert.Throws<DivideByZeroException>(() => actualAnswer());
     }
     
     [Fact]
@@ -104,7 +104,7 @@ public class TestCalculator
         var actualAnswer = () => calculator.Calculate(formula);
         
         // Assert
-        Assert.Throws<ArgumentException>(() => actualAnswer);
+        Assert.Throws<ArgumentException>(() => actualAnswer());
     }
     
     [Fact]
@@ -118,6 +118,6 @@ public class TestCalculator
         var actualAnswer = () => calculator.Calculate(formula);
         
         // Assert
-        Assert.Throws<ArgumentException>(() => actualAnswer);
+        Assert.Throws<ArgumentException>(() => actualAnswer());
     }
 }
