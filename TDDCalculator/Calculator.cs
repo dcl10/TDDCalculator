@@ -16,21 +16,26 @@ public class Calculator
     /// <exception cref="DivideByZeroException">Thrown when the user attempts to divide by 0.</exception>
     public int Calculate(string formula)
     {
+        throw new NotImplementedException();
     }
 
     private int _add(int x, int y)
     {
+        throw new NotImplementedException();
     }
     
     private int _subtract(int x, int y)
     {
+        throw new NotImplementedException();
     }
 
     private int _multiply(int x, int y)
     {
+        throw new NotImplementedException();
     }
     
     private int _divide(int x, int y)
     {
+        throw new NotImplementedException();
     }
 }

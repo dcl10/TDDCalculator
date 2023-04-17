@@ -10,8 +10,7 @@ public class TestCalculator
         // Act
         
         // Assert
-        // TODO: remove me!!
-        Assert.True(false);
+        throw new NotImplementedException();
     }
     
     [Fact]
@@ -22,8 +21,7 @@ public class TestCalculator
         // Act
         
         // Assert
-        // TODO: remove me!!
-        Assert.True(false);
+        throw new NotImplementedException();
     }
     
     [Fact]
@@ -34,8 +32,7 @@ public class TestCalculator
         // Act
         
         // Assert
-        // TODO: remove me!!
-        Assert.True(false);
+        throw new NotImplementedException();
     }
     
     [Fact]
@@ -46,8 +43,7 @@ public class TestCalculator
         // Act
         
         // Assert
-        // TODO: remove me!!
-        Assert.True(false);
+        throw new NotImplementedException();
     }
     
     [Fact]
@@ -58,8 +54,7 @@ public class TestCalculator
         // Act
         
         // Assert
-        // TODO: remove me!!
-        Assert.True(false);
+        throw new NotImplementedException();
     }
     
     [Fact]
@@ -70,8 +65,7 @@ public class TestCalculator
         // Act
         
         // Assert
-        // TODO: remove me!!
-        Assert.True(false);
+        throw new NotImplementedException();
     }
     
     [Fact]
@@ -82,8 +76,7 @@ public class TestCalculator
         // Act
         
         // Assert
-        // TODO: remove me!!
-        Assert.True(false);
+        throw new NotImplementedException();
     }
     
     [Fact]
@@ -94,7 +87,6 @@ public class TestCalculator
         // Act
         
         // Assert
-        // TODO: remove me!!
-        Assert.True(false);
+        throw new NotImplementedException();
     }
 }
