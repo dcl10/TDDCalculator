@@ -120,4 +120,22 @@ public class TestCalculator
         // Assert
         Assert.Throws<ArgumentException>(() => actualAnswer());
     }
+    
+    [Fact]
+    public void Calculate_JankWhitespace_ReturnsAnswer()
+    {
+        // Arrange
+        var formulaWithoutWhitespace = "84/2";
+        var numberWithJankWhitespace = " 42    ";
+        var expectedAnswer = 42;
+        var calculator = new Calculator();
+        
+        // Act
+        var noSpaceAnswer = calculator.Calculate(formulaWithoutWhitespace);
+        var tooManySpaceAnswer = calculator.Calculate(numberWithJankWhitespace);
+        
+        // Assert
+        Assert.Equal(expectedAnswer, noSpaceAnswer);
+        Assert.Equal(expectedAnswer, tooManySpaceAnswer);
+    }
 }
