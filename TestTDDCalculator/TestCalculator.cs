@@ -89,4 +89,15 @@ public class TestCalculator
         // Assert
         throw new NotImplementedException();
     }
+    
+    [Fact]
+    public void Calculate_JankWhitespace_ReturnsAnswer()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        throw new NotImplementedException();
+    }
 }
