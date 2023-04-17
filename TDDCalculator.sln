@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDCalculator", "TDDCalculator\TDDCalculator.csproj", "{506E3368-3D42-471C-BA41-5B40C7868E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTDDCalculator", "TestTDDCalculator\TestTDDCalculator.csproj", "{B321C72C-591D-4229-9A28-D05EE5AF53F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{506E3368-3D42-471C-BA41-5B40C7868E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{506E3368-3D42-471C-BA41-5B40C7868E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{506E3368-3D42-471C-BA41-5B40C7868E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{506E3368-3D42-471C-BA41-5B40C7868E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B321C72C-591D-4229-9A28-D05EE5AF53F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B321C72C-591D-4229-9A28-D05EE5AF53F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B321C72C-591D-4229-9A28-D05EE5AF53F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B321C72C-591D-4229-9A28-D05EE5AF53F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

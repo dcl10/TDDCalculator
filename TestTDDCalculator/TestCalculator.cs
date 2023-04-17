@@ -1,0 +1,100 @@
+namespace TestTDDCalculator;
+
+public class TestCalculator
+{
+    [Fact]
+    public void Calculate_SingleNumber_ReturnsSameNumber()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        // TODO: remove me!!
+        Assert.True(false);
+    }
+    
+    [Fact]
+    public void Calculate_AddTwoNumbers_ReturnsSum()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        // TODO: remove me!!
+        Assert.True(false);
+    }
+    
+    [Fact]
+    public void Calculate_SubtractTwoNumbers_ReturnsDifference()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        // TODO: remove me!!
+        Assert.True(false);
+    }
+    
+    [Fact]
+    public void Calculate_MultiplyTwoNumbers_ReturnsProduct()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        // TODO: remove me!!
+        Assert.True(false);
+    }
+    
+    [Fact]
+    public void Calculate_DivideTwoNumbers_ReturnsQuotient()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        // TODO: remove me!!
+        Assert.True(false);
+    }
+    
+    [Fact]
+    public void Calculate_DivideByZero_ThrowsDivideByZeroException()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        // TODO: remove me!!
+        Assert.True(false);
+    }
+    
+    [Fact]
+    public void Calculate_WithNonIntegerArgs_ThrowsArgumentException()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        // TODO: remove me!!
+        Assert.True(false);
+    }
+    
+    [Fact]
+    public void Calculate_WithInvalidOperator_ThrowsArgumentException()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        // TODO: remove me!!
+        Assert.True(false);
+    }
+}
