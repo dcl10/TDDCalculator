@@ -138,4 +138,15 @@ public class TestCalculator
         Assert.Equal(expectedAnswer, noSpaceAnswer);
         Assert.Equal(expectedAnswer, tooManySpaceAnswer);
     }
+    
+    [Fact]
+    public void Calculate_JankWhitespace_ReturnsAnswer()
+    {
+        // Arrange
+        
+        // Act
+        
+        // Assert
+        throw new NotImplementedException();
+    }
 }
